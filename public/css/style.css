@@ -1,0 +1,37 @@
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-floating {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* .float {
+    position: fixed;
+    width: 256px;
+    height: 144px;
+    bottom: 40px;
+    left: 40px;
+    text-align: center;
+} */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    width: 50px;
+    height: 50px;
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    background-color: #0d6efd;
+    border-radius: 50px; /* Rounded corners */
+    font-size: 30px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: lightskyblue; /* Add a dark-grey background on hover */
+}
